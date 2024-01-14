@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Maksym Serbyn
+title: Marko Ljubotina
 
 # Full Name (for SEO)
-first_name: Maksym
-last_name: Serbyn
+first_name: Marko
+last_name: Ljubotina
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Physics
+role: Postdoc
 
 # Organizations/Affiliations
 organizations:
