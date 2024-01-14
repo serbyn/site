@@ -8,14 +8,14 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        Quantum Dynamics
         Research Group
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **Quantum Dynamics Group** is working on quantum non-equilibrium & condensed matter physics at ISTA since 2017.
   
   - block: collection
     content:
