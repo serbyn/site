@@ -1,21 +1,21 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Maksym Serbyn
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Maksym
+last_name: Serbyn
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Professor of Physics
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
-    url: ''
+  - name: Institute of Science and Technology Austria (ISTA)
+    url: 'ista.ac.at'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
