@@ -1,67 +1,68 @@
 ---
 # Leave the homepage title empty to use the site title
-title: 
+title: ''
 date: 2022-10-24
 type: landing
 
 sections:
-  - block: hero
+  - block: about.biography
+    id: about
     content:
-      title: |
-        Quantum Dynamics
-        Research Group
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Quantum Dynamics Group** is working on quantum non-equilibrium & condensed matter physics at ISTA since 2017.
-  
+      title: Biography
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: serbyn
+ 
   - block: collection
     content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
+      title: Recent Publications
+      #text: |-
+      #  {{% callout note %}}
+      #  Quickly discover relevant content by [filtering publications](./publication/).
+      #  {{% /callout %}}
       filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
+        folders:
+          - publication
+        exclude_featured: true
     design:
-      view: card
-      columns: '1'
-    
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
----
+      columns: '2'
+      view: citation
 
-  - block: markdown
+  - block: collection
+    id: posts
     content:
-      title:
+      title: Recent Posts
       subtitle: ''
-      text:
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
     design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+      # Choose a layout view
+      view: compact
+      columns: '2'
+ 
+  - block: collection
+    id: talks
+    content:
+      title: Recent Talks
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
+---
