@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Maksym Serbyn
+title: Serafim Babkin
 
 # Full name (for SEO)
-first_name: Maksym
-last_name: Serbyn
+first_name: Serafim
+last_name: Babkin
 
 # Username (this should match the folder name)
 authors:
-  - serbyn
+  - babkin
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor of Physics
+role: Intern
 
 # Organizations/Affiliations
 organizations:
@@ -22,26 +22,24 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research is focused on nonequilibrium quantum systems and condensed matter physics.
+bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Quantum thermalization 
-  - Entanglement dynamics  
-  - Dynamical phases of matter
-  - Nonequilibrium probes of solids
-  - Tensor networks
+  - Artificial Intelligence
+  - Computational Linguistics
+  - Information Retrieval
 
 education:
   courses:
     - course: PhD in Artificial Intelligence
-      institution: Massachusetts Institute of Technology (MIT)
-      year: 2014
-    - course: MS in Physics
-      institution: Moscow Institute of Physics and Technology (MIPT)
+      institution: Stanford University
+      year: 2012
+    - course: MEng in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
       year: 2009
-    - course: BS in Physics
-      institution: Moscow Institute of Physics and Technology (MIPT)
-      year: 2007
+    - course: BSc in Artificial Intelligence
+      institution: Massachusetts Institute of Technology
+      year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -50,16 +48,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:maksym.serbyn@ista.ac.at'
+    link: 'mailto:test@example.org'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/MaksSerbyn
+    link: https://twitter.com/GeorgeCushen
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=PGHvCmgAAAAJ&hl=en
+    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/serbyn
+    link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -72,7 +70,9 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Interns
 ---
 
-Maksym is a professor of Physics at ISTA. Before this appointment he was Gordon and Betty Moore postdoctoral fellow at UC Berkeley. Since 2017 Maksym leads the Quantum Dynamics & Condensed Matter research group at ISTA, which develops theory of nonequilibrium quantum systems and quantum thermalization, and also works on emergent phases in condensed matter systems.
+吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
