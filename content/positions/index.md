@@ -1,68 +1,23 @@
 ---
-title: Contact
-date: 2022-10-24
+title: How to join the group
+summary: Here we describe how to join the group
+date: "2024-06-22T00:59:59Z"
 
-type: landing
+reading_time: false  # Show estimated reading time?
+share: false  # Show social sharing links?
+profile: false  # Show author profile?
+comments: false  # Show comments?
 
-sections:
-  - block: contact
-    content:
-      title: Contact
-      text: |-
-        If you are interested in the open positions, please check the corresponding webpage.
-      email: maksym.serbyn@ist.ac.at
-      address:
-        street: Am Campus 1
-        city: Klosterneuburg
-        region: NÖ
-        postcode: '3400'
-        country: Austria
-        country_code: AT
-      coordinates:
-        latitude: '48.309658'
-        longitude: '16.258536'
-      directions: We are located in the Office Building West
-#      office_hours:
-#       - 'Monday 10:00 to 13:00'
-#       - 'Wednesday 09:00 to 10:00'
-#      appointment_url: 'https://calendly.com'
-      #contact_links:
-      #  - icon: comments
-      #    icon_pack: fas
-      #    name: Discuss on Forum
-      #    link: 'https://discourse.gohugo.io'
-    
-      # Automatically link email and phone or display as text?
-      autolink: true
-    
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: true
-    design:
-      columns: '1'
+# Optional header image (relative to `assets/media/` folder).
+header:
+  caption: ""
+  image: ""
 ---
 
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: contact.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+We are looking for physicists interested in quantum condensed matter, quantum many-body physics, quantum information, and/or numerical methods. If you are interested in joining us, see details below.
+- **Postdocs**: at the moment there are *no open positions*. We expect the next opening to become available in September 2025.  
+- **PhD students**: We are looking to admit one graduate student next year. IST has a US-style graduate school with centralized admission. The next application deadline around 1st of January 2025. Please submit your application via [graduate school](https://phd.pages.ist.ac.at/phd-application-admission/) in due time. 
+- **Interns**: At the moment all internship positions in our group are filled. However, IST offers an internship program called “ISTernship” during the summer. If you are approaching the end of your undergraduate/masters studies, and would like to spend a summer of 2018 at IST working on scientific project, please apply here. Due to summer travel, the preference will be given to interns who can start in May/early June.
+
+
+Unfortunately, due to large number of inquiries, the emails with questions that are answered above may remain without answer.
