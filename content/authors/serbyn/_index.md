@@ -33,7 +33,7 @@ interests:
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
+    - course: PhD in Physics
       institution: Massachusetts Institute of Technology (MIT)
       year: 2014
     - course: MS in Physics
