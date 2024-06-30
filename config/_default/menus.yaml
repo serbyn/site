@@ -13,9 +13,12 @@ main:
   - name: Seminars
     url: event
     weight: 40
-  - name: Posts
+  - name: Highlights
     url: post
     weight: 50
+  - name: Funding
+    url: funding
+    weight: 55
   - name: Positions
     url: positions
     weight: 60
