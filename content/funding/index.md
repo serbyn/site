@@ -23,6 +23,9 @@ Current funding sources include:
 Scroll down below or click links for detailed descriptions. 
 
 {{< figure src="LOGO_ERC-FLAG_EU_-768x543.jpg" width="300" caption="" theme="light" >}}
+{{< figure src="QMS.jpeg" width="280" caption="" theme="light" >}}
+{{< figure src="quanta.jpeg" width="280" caption="" theme="light" >}}
+
 
 ## ERC Starting grant 
 
@@ -41,9 +44,12 @@ Our group is supported by project "Variational approach to quantum dynamics and 
 
 # Past awards
 
+
 ## PRACE
  
 We acknowledge PRACE for awarding us computing time within the 23rd call for projects. The project
 "Simulating nonergodic matter in high entanglement regime" was executed by Pietro Brighi,
 Alexios Michailidis, and Marko Ljubotina. More details about the project are available [at this link](https://prace-ri.eu/hpc-access/project-access/project-access-awarded-projects/projects-awarded-under-prace-project-access-call-23/#FundamentalConstituentsOfMatter). 
+
+
  

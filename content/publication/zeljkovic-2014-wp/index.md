@@ -1,9 +1,10 @@
 ---
-# Documentation: https://hugoblox.com/docs/managing-content/
-
 title: Mapping the unconventional orbital texture in topological crystalline insulators
-subtitle: ''
-summary: ''
+
+# Authors
+# A YAML list of author names
+# If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
+# write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
 - Ilija Zeljkovic
 - Yoshinori Okada
@@ -19,37 +20,71 @@ authors:
 - Liang Fu
 - M. Zahid Hasan
 - Vidya Madhavan
-tags: []
-categories: []
-date: '2014-01-01'
-lastmod: 2024-06-22T18:38:16+02:00
-featured: false
-draft: false
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+# Author notes (such as 'Equal Contribution')
+# A YAML list of notes for each author in the above `authors` list
+author_notes: []
+
+date: '2014-01-01'
+
+# Date to publish webpage (NOT necessarily Bibtex publication's date).
+publishDate: '2025-01-20T13:19:30.518670Z'
+
+# Publication type.
+# A single CSL publication type but formatted as a YAML list (for Hugo requirements).
+publication_types:
+- article-journal
+
+# Publication name and optional abbreviated publication name.
+publication: '*Nature Physics*'
+publication_short: ''
+
+doi: 10.1038/nphys3012
+
+abstract: In crystalline topological insulators, the combination of an insulating
+  bulk with conducting surface states is due to particular crystal symmetry. The associated
+  Dirac cones---linear crossings in the electronic band structure---exhibit non-trivial
+  orbital textures that have now been probed by means of scanning tunnelling spectroscopy.
+
+# Summary. An optional shortened abstract.
+summary: ''
+
+tags: []
+
+# Display this page in a list of Featured pages?
+featured: false
+
+# Links
+url_pdf: ''
+url_code: ''
+url_dataset: ''
+url_poster: ''
+url_project: ''
+url_slides: ''
+url_source: ''
+url_video: ''
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
+# Publication image
+# Add an image named `featured.jpg/png` to your page's folder then add a caption below.
 image:
   caption: ''
   focal_point: ''
   preview_only: false
 
-# Projects (optional).
-#   Associate this post with one or more of your projects.
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
+#   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
 projects: []
-publishDate: '2024-06-22T16:38:16.667217Z'
-publication_types:
-- '2'
-abstract: In crystalline topological insulators, the combination of an insulating
-  bulk with conducting surface states is due to particular crystal symmetry. The associated
-  Dirac cones---linear crossings in the electronic band structure---exhibit non-trivial
-  orbital textures that have now been probed by means of scanning tunnelling spectroscopy.
-publication: '*Nature Physics*'
-doi: 10.1038/nphys3012
 links:
 - name: URL
   url: https://doi.org/10.1038/nphys3012
 ---
+
+Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
