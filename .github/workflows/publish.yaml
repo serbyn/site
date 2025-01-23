@@ -70,4 +70,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          artifact-name: serbyn-site
+          artifact_name: serbyn-site
