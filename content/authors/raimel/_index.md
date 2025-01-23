@@ -14,7 +14,7 @@ authors:
   - raimel
 
 # Role/position
-role: Alumni
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:

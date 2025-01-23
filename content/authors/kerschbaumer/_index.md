@@ -22,24 +22,21 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am mainly interested in non-equilibrium quantum systems. More concretely, my current work focuses on scarred quantum many-body systems.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Weak Breaking of Ergodicity
+  - Variational Algorithms
+  - Quantum Optimization
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: MS in Theoretical and Mathematical Physics
+      institution: Ludwig-Maximilians-University Munich (LMU) and Technical University of Munich (TUM)
+      year: 2023
+    - course: BS in Technical Physics
+      institution: Technical University of Vienna
+      year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -48,16 +45,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: 'mailto:aron.kerschbaumer@ist.ac.at'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
+    link: https://scholar.google.de/citations?user=m459A2gAAAAJ&hl=en&oi=sra
+  - icon: linkedin
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://www.linkedin.com/in/aron-kerschbaumer-09a6352b1
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -73,4 +67,4 @@ user_groups:
   - Graduate Students
 ---
 
-Aron has joined the group in ... he works on ...
+Aron joined the group as a PhD student in 2023. Before that, he completed the joint master's program in Theoretical and Mathematical Physics at TUM and LMU Munich.
