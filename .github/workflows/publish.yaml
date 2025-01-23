@@ -55,7 +55,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-          name: serbyn-site
+          artifact_name: serbyn-site  
 
   # Deploy website to GitHub Pages hosting
   deploy:
@@ -70,4 +70,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          artifact_name: serbyn-site
+          artifact_name: serbyn-site  
