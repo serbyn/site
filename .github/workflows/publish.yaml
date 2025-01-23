@@ -69,5 +69,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
 	uses: actions/deploy-pages@v2
-    	with:  # Correct indentation here
-      	  artifact-name: serbyn-site
+    	with:
+          artifact-name: serbyn-site
