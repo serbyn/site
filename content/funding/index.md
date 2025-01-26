@@ -49,7 +49,7 @@ In 2019 Prof. Serbyn has been awarded an ERC starting grant to study the propert
  
 We acknowledge PRACE for awarding us computing time within the 23rd call for projects. The project
 "Simulating nonergodic matter in high entanglement regime" was executed by Pietro Brighi,
-Alexios Michailidis, and Marko Ljubotina. More details about the project are available [at this link](https://prace-ri.eu/hpc-access/project-access/project-access-awarded-projects/projects-awarded-under-prace-project-access-call-23/#FundamentalConstituentsOfMatter). 
+Alexios Michailidis, and Marko Ljubotina. More details about the project are available [at this link](https://prace-ri.eu/resources/legacy-hpc-access/project-access/project-access-awarded-projects/projects-awarded-under-prace-project-access-call-23/#FundamentalConstituentsOfMatter). 
 
 
  
