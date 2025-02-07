@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2025-02-07
 type: landing
 
 sections:
@@ -18,8 +18,8 @@ sections:
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-        - Researchers
         - Grad Students
+        - Researchers
       sort_by: Params.last_name
       sort_ascending: true
     design:
@@ -43,7 +43,7 @@ sections:
         folders:
           - publication
         exclude_featured: true
-      count: 3
+      count: 5
     design:
       columns: '2'
       view: citation
