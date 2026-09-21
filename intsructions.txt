@@ -1,4 +1,12 @@
-instructions for generating bib:
+Publications are imported automatically.
 
-source ./blox/bin/activate 
-academic import ./my-refs.bib content/publication/ -v --overwrite
+Update the bibliography in BibDesk, copy it into this repo as publications.bib,
+then commit and push to main. The GitHub Action in
+.github/workflows/import-publications.yml runs the Bibtex-to-Markdown converter
+and opens a pull request with any new pages under content/publication/.
+
+The import never overwrites a page that already exists, so hand edits to a
+publication page (abstract, featured image, links) are safe.
+
+Master copy of the bibliography:
+  ~/Dropbox/admin/personal/my-refs.bib

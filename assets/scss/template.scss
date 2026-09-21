@@ -7,3 +7,57 @@
 .cta-group {
   justify-content: center;
 }
+
+// Funding page: award text with its funder logo alongside on the right
+.funding-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+
+  .funding-text {
+    flex: 1 1 320px;
+    min-width: 0;
+
+    > :first-child {
+      margin-top: 0;
+    }
+  }
+
+  .funding-logo {
+    flex: 0 0 200px;
+    max-width: 200px;
+
+    figure {
+      margin: 0;
+    }
+  }
+}
+
+// Funding page: collapsible sections of past awards
+details.funding-past {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin: 0 0 1rem;
+
+  > summary {
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0.5rem 0;
+  }
+
+  &[open] > summary {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    margin-bottom: 1rem;
+  }
+
+  // The theme marks toggled text with a rule down the left of every
+  // paragraph; here the box around the section already does that job.
+  p {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+  }
+}

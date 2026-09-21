@@ -19,6 +19,9 @@ main:
   - name: Funding
     url: funding
     weight: 55
+  - name: Gallery
+    url: gallery
+    weight: 57
   - name: Positions
     url: positions
     weight: 60

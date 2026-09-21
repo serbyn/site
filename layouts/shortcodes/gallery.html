@@ -1,0 +1,60 @@
+{{/* Project override of the Hugo Blox `gallery` shortcode.
+
+     Differences from the theme version:
+       - non-image files such as `.gitkeep` or `.DS_Store` are ignored;
+       - an empty or missing album renders a short notice instead of calling
+         `errorf`, which aborts the whole build (the album folder is edited
+         by hand, so it must be safe for it to be empty);
+       - the lightbox opens a resized copy rather than the camera original.
+
+     Parameters
+     ----------
+     album : default "gallery"
+         Album folder in `assets/media/albums/` to load images from.
+     order : default "asc"
+         Sort images by title ascending (asc) or descending (desc).
+     resize_options : default "750x750"
+         Resize options passed to Hugo `.Fit`.
+*/}}
+
+{{ $.Page.Store.Set "has_gallery" true }}
+
+{{ $album := (.Get "album") | default "gallery" }}
+{{ $album_path := path.Join "media" "albums" $album "*" }}
+{{ $sort_order := .Get "order" | default "asc" }}
+{{ $resize_options := printf "%s webp" (.Get "resize_options" | default "750x750") }}
+
+{{/* Ignore non-image files such as `.gitkeep` or `.DS_Store`. */}}
+{{ $images := where (resources.Match $album_path) "ResourceType" "image" }}
+
+{{ if $images }}
+<div class="gallery-grid">
+  {{ range (sort $images "Name" $sort_order) }}
+    {{ $image := .Fit $resize_options }}
+    {{/* Lightbox gets a resized copy, not the camera original, which can be several MB. */}}
+    {{ $full := .Fit "1600x1600 q85 webp" }}
+    {{ $filename := path.Base .Name }}
+    {{ $caption := "" }}
+    {{ if $.Page.Params.gallery_item }}
+      {{ range (where (where $.Page.Params.gallery_item "album" $album) "image" $filename) }}
+        {{ $caption = .caption }}
+      {{ end }}
+    {{ end }}
+    {{ $image_size := "gallery-item--medium" }}
+    {{ if in .Name "-f." }}
+      {{ $image_size = "gallery-item--full" }}
+    {{ else if in .Name "-s." }}
+      {{ $image_size = "" }}
+    {{ else if in .Name "-l." }}
+      {{ $image_size = "gallery-item--large" }}
+    {{ end }}
+    <div class="gallery-item {{ $image_size }}">
+      <a data-fancybox="gallery-{{ $album }}" href="{{ $full.RelPermalink }}" {{ with $caption }}data-caption="{{ . | markdownify | emojify | safeHTMLAttr }}"{{ end }}>
+        <img src="{{ $image.RelPermalink }}" loading="lazy" alt="{{ plainify $caption | default $filename }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+      </a>
+    </div>
+  {{ end }}
+</div>
+{{ else }}
+<p><em>No photos in this album yet.</em></p>
+{{ end }}
